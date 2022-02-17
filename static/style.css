@@ -1,0 +1,14 @@
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#parallax-index {
+  height: 95vh;
+}
+
+.parallax-wrapper {
+  padding: 5%;
+}
