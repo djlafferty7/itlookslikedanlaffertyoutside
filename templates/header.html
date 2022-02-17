@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+
+<header>
+    <div class="navbar-fixed">
+        <nav class="{{ style[0] }}">
+            <div class="container">
+                <a href="{{ url_for('index') }}" class="brand-logo blue-text text-darken-3">Dan Lafferty</a>
+                <a href="{{ url_for('index') }}" data-target="mobile-demo" class="sidenav-trigger"><i
+                        class="material-icons blue-text text-darken-4">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    {% include "links.html" %}
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav blue-text text-darken-4" id="mobile-demo">
+        {% include "links.html" %}
+    </ul>
+</header>
+
+</html>
